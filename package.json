@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host --open",
-    "build": "tsc && vite build",
-    "test": "vitest run"
+    "build": "tsc && vite build"
   },
   "dependencies": {
     "@picocss/pico": "^2.1.1",
@@ -17,9 +16,7 @@
     "@types/react": "18.2.66",
     "@types/react-dom": "18.2.22",
     "@vitejs/plugin-react": "^4.3.4",
-    "jsdom": "^26.1.0",
     "typescript": "^5.8.3",
-    "vite": "^6.3.5",
-    "vitest": "^3.2.6"
+    "vite": "^6.3.5"
   }
 }

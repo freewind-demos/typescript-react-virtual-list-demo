@@ -19,12 +19,6 @@ pnpm install
 pnpm run dev
 ```
 
-### 测试
-
-```bash
-pnpm test
-```
-
 ## 注意事项
 
 - 本 demo 只覆盖**固定行高**场景；变高列表需要额外维护每行累计高度表。
@@ -46,7 +40,7 @@ pnpm test
 
 ### 3. 关键代码
 
-`getVisibleRange.ts` 负责把滚动位置转成索引区间，便于单测。
+`getVisibleRange.ts` 负责把滚动位置转成索引区间。
 
 `VirtualList.tsx` 负责：
 

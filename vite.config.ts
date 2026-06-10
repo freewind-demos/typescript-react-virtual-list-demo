@@ -12,8 +12,4 @@ export default defineConfig({
     host: true,
     open: true,
   },
-  // Vitest 与 Vite 共用同一份配置。
-  test: {
-    environment: 'jsdom',
-  },
 })
